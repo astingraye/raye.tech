@@ -1,0 +1,13 @@
+services:
+  site:
+    container_name: site
+    ports:
+      - 2269:2269
+    build: .
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - NODE_ENV=production
+    restart: unless-stopped
+    volumes:
+      - ./:/code
