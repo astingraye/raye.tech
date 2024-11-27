@@ -43,7 +43,7 @@ function App() {
 					);
 					if (index < links.length - 1) {
 						list.push(
-							<div className="w-full h-0.5 rounded-lg bg-ctp-text" />
+							<div className="w-full h-0.5 rounded-lg bg-ctp-text" style={{transform: "scaleX(1.25)"}}/>
 						);
 					}
 					return list;
