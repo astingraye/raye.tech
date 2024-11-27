@@ -18,7 +18,8 @@ function Hyperlink({ url, name }) {
 function App() {
 	const links = Object.entries({
 		Github: 'https://github.com/astingraye',
-		Discord: 'https://discord.com/users/1298435571395330108'
+		Discord: 'https://discord.com/users/1298435571395330108',
+		Bluesky: "https://bsky.app/profile/stingraye.bsky.social"
 	});
 
 	return (
